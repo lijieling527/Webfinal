@@ -2476,6 +2476,9 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		#banner h2 {
+			padding-top: 1em;
+		}
 /* Content */
 
 	#content > hr {
