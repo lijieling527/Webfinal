@@ -17,7 +17,7 @@ $(function(){
             $("#answer").empty();
 
             $("#options").empty();
-            currentQuiz=Math.floor(Math.random()*20)
+            currentQuiz=Math.floor(Math.random()*40)
             $("#question").text(questions[currentQuiz].question);
             questions[currentQuiz].answers.forEach(function(element,index,array){
                 $("#options").append(
@@ -39,9 +39,9 @@ $(function(){
                         $("#StartButton").attr("value","重新開始");
                     }
                     else if(tf==1){
-                         currentQuiz=Math.floor(Math.random()*20)
+                         currentQuiz=Math.floor(Math.random()*40)
                         while(currentQuiz==buffer)
-                        currentQuiz=Math.floor(Math.random()*20);
+                        currentQuiz=Math.floor(Math.random()*40);
                         buffer=currentQuiz
 
                             $("#question").text(questions[currentQuiz].question);
