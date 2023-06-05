@@ -29,8 +29,8 @@ let questions = [
     {
         "question":"desolation",
         "answers":[
-            ["區別",0],
             ["荒涼",1],
+            ["區別",0],
             ["移動的",0],
             ["軍團",0]
         ]
@@ -57,9 +57,9 @@ let questions = [
         "question":"campaign",
         "answers":[
             ["學費",0],
-            ["暫時停止",0],
+            ["運動",1],
             ["消失",0],
-            ["運動",1]
+            ["暫時停止",0]
         ]
     },
     {
@@ -76,8 +76,8 @@ let questions = [
         "answers":[
             ["生鏽的",0],
             ["廢除",0],
-            ["聲音",0],
-            ["名聲",1]
+            ["名聲",1],
+            ["聲音",0]
         ]
     },
     {
@@ -92,10 +92,10 @@ let questions = [
     {
         "question":"cataract",
         "answers":[
-            ["仁慈的",0],
+            ["大瀑布",1],
             ["命令",0],
             ["代理人",0],
-            ["大瀑布",1]
+            ["仁慈的",0]
         ]
     },
     {
@@ -139,8 +139,8 @@ let questions = [
         "answers":[
             ["居住於",0],
             ["二進位的",0],
-            ["心智健全的",0],
-            ["努力",1]
+            ["努力",1],
+            ["心智健全的",0]
         ]
     },
     {
@@ -177,6 +177,186 @@ let questions = [
             ["非法的",0],
             ["有能力的",0],
             ["委員會",0]
+        ]
+    },
+    {
+        "question":"記憶力",
+        "answers":[
+            ["memory",1],
+            ["capability",0],
+            ["cognition",0],
+            ["retention",0]
+        ]
+    },
+    {
+        "question":"論文",
+        "answers":[
+            [" essay",0],
+            ["dissertation",0],
+            ["manuscript",0],
+            ["thesis",1]
+        ]
+    },
+    {
+        "question":"假設",
+        "answers":[
+            ["assumption",0],
+            ["hypothesis",1],
+            ["conjecture",0],
+            ["premise",0]
+        ]
+    },
+    {
+        "question":"統計",
+        "answers":[
+            ["statistics",1],
+            ["analysis",0],
+            ["data",0],
+            ["metrics",0]
+        ]
+    },
+    {
+        "question":"實驗",
+        "answers":[
+            ["trial",0],
+            ["experiment",1],
+            ["investigation",0],
+            ["exploration",0]
+        ]
+    },
+    {
+        "question":"分析",
+        "answers":[
+            ["examination",0],
+            ["evaluation",0],
+            ["analysis",1],
+            ["scrutiny",0]
+        ]
+    },
+    {
+        "question":"解釋",
+        "answers":[
+            ["explanation",1],
+            ["interpretation",0],
+            ["clarification",0],
+            ["justification",0]
+        ]
+    },
+    {
+        "question":"探索",
+        "answers":[
+            ["investigate",0],
+            ["explore",1],
+            ["discover",0],
+            ["venture",0]
+        ]
+    },
+    {
+        "question":"研究方法",
+        "answers":[
+            ["study approach",0],
+            ["investigation technique",0],
+            ["research methodology",1],
+            ["inquiry strategy",0]
+        ]
+    },
+    {
+        "question":"學術",
+        "answers":[
+            ["educational",0],
+            ["scholarly",0],
+            ["intellectual",0],
+            ["academic",1]
+        ]
+    },
+    {
+        "question":"典範",
+        "answers":[
+            ["prototype",0],
+            ["paradigm",1],
+            ["ethos",0],
+            ["syntax",0]
+        ]
+    },
+    {
+        "question":"評估",
+        "answers":[
+            ["evaluate",0],
+            ["appraise",0],
+            ["critique",0],
+            ["assess",1]
+        ]
+    },
+    {
+        "question":"抽象",
+        "answers":[
+            ["concrete",0],
+            ["abstract",1],
+            ["elaborate",0],
+            ["symbolic",0]
+        ]
+    },
+    {
+        "question":"傳媒",
+        "answers":[
+            ["media",1],
+            ["journalism",0],
+            ["broadcasting",0],
+            ["communication",0]
+        ]
+    },
+    {
+        "question":"有效",
+        "answers":[
+            ["competent",0],
+            ["efficient",0],
+            ["productive",0],
+            ["effective",1]
+        ]
+    },
+    {
+        "question":"同理心",
+        "answers":[
+            ["empathy",1],
+            ["compassion",0],
+            ["sympathy",0],
+            ["understanding",0]
+        ]
+    },
+    {
+        "question":"環境",
+        "answers":[
+            ["habitat",0],
+            ["surroundings",0],
+            ["atmosphere",0],
+            ["environment",1]
+        ]
+    },
+    {
+        "question":"邏輯",
+        "answers":[
+            ["reasoning",0],
+            ["logic",1],
+            ["rationality",0],
+            ["deduction",0]
+        ]
+    },
+    {
+        "question":"創新",
+        "answers":[
+            ["creativity",0],
+            ["innovation",1],
+            ["inventiveness",0],
+            ["originality",0]
+        ]
+    },
+    {
+        "question":"平衡",
+        "answers":[
+            ["balance",1],
+            ["equilibrium",0],
+            ["stability",0],
+            ["harmony",0]
         ]
     }
 
