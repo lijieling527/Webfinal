@@ -17,9 +17,9 @@ $(function(){
             $("#answer").empty();
 
             $("#options").empty();
-            
-            $("#question").text(questions[0].question);
-            questions[0].answers.forEach(function(element,index,array){
+            currentQuiz=Math.floor(Math.random()*10)
+            $("#question").text(questions[currentQuiz].question);
+            questions[currentQuiz].answers.forEach(function(element,index,array){
                 $("#options").append(
                     `<label><input name='options' type='radio' value='${index}' id='radi'>${element[0]}</label><br><br>`);
             });

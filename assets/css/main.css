@@ -2381,9 +2381,10 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				font-size: 2.25em;
 				margin: 0;
 			}
+			
 
 		#header h1 {
 			color: #fff;
@@ -2391,8 +2392,10 @@ input, select, textarea {
 			line-height: 1em;
 		}
 
-			#header h1 a {
+			#header h1 a  {
 				color: inherit;
+				font-size: 1.5em;
+				font-weight: 700;
 			}
 
 		#header .button {
