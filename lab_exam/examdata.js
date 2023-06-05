@@ -9,24 +9,6 @@ let questions = [
         ]
     },
     {
-        "question":"disclose",
-        "answers":[
-            ["揭露",1],
-            ["競賽",0],
-            ["無效的",0],
-            ["順從的",0]
-        ]
-    },
-    {
-        "question":"obscure",
-        "answers":[
-            ["毛製品",0],
-            ["二進位的",0],
-            ["難解的",1],
-            ["人口減少",0]
-        ]
-    },
-    {
         "question":"desolation",
         "answers":[
             ["荒涼",1],
@@ -51,6 +33,24 @@ let questions = [
             ["火車頭",1],
             ["可以忽略的",0],
             ["表達",0]
+        ]
+    },
+    {
+        "question":"同理心",
+        "answers":[
+            ["empathy",1],
+            ["compassion",0],
+            ["sympathy",0],
+            ["understanding",0]
+        ]
+    },
+    {
+        "question":"環境",
+        "answers":[
+            ["habitat",0],
+            ["surroundings",0],
+            ["atmosphere",0],
+            ["environment",1]
         ]
     },
     {
@@ -126,6 +126,42 @@ let questions = [
         ]
     },
     {
+        "question":"實驗",
+        "answers":[
+            ["trial",0],
+            ["experiment",1],
+            ["investigation",0],
+            ["exploration",0]
+        ]
+    },
+    {
+        "question":"分析",
+        "answers":[
+            ["examination",0],
+            ["evaluation",0],
+            ["analysis",1],
+            ["scrutiny",0]
+        ]
+    },
+    {
+        "question":"解釋",
+        "answers":[
+            ["explanation",1],
+            ["interpretation",0],
+            ["clarification",0],
+            ["justification",0]
+        ]
+    },
+    {
+        "question":"探索",
+        "answers":[
+            ["investigate",0],
+            ["explore",1],
+            ["discover",0],
+            ["venture",0]
+        ]
+    },
+    {
         "question":"insulate",
         "answers":[
             ["重力",0],
@@ -159,6 +195,15 @@ let questions = [
             ["編譯",0],
             ["讚美",0],
             ["肌肉",1]
+        ]
+    },
+    {
+        "question":"傳媒",
+        "answers":[
+            ["media",1],
+            ["journalism",0],
+            ["broadcasting",0],
+            ["communication",0]
         ]
     },
     {
@@ -216,42 +261,6 @@ let questions = [
         ]
     },
     {
-        "question":"實驗",
-        "answers":[
-            ["trial",0],
-            ["experiment",1],
-            ["investigation",0],
-            ["exploration",0]
-        ]
-    },
-    {
-        "question":"分析",
-        "answers":[
-            ["examination",0],
-            ["evaluation",0],
-            ["analysis",1],
-            ["scrutiny",0]
-        ]
-    },
-    {
-        "question":"解釋",
-        "answers":[
-            ["explanation",1],
-            ["interpretation",0],
-            ["clarification",0],
-            ["justification",0]
-        ]
-    },
-    {
-        "question":"探索",
-        "answers":[
-            ["investigate",0],
-            ["explore",1],
-            ["discover",0],
-            ["venture",0]
-        ]
-    },
-    {
         "question":"研究方法",
         "answers":[
             ["study approach",0],
@@ -297,39 +306,12 @@ let questions = [
         ]
     },
     {
-        "question":"傳媒",
-        "answers":[
-            ["media",1],
-            ["journalism",0],
-            ["broadcasting",0],
-            ["communication",0]
-        ]
-    },
-    {
         "question":"有效",
         "answers":[
             ["competent",0],
             ["efficient",0],
             ["productive",0],
             ["effective",1]
-        ]
-    },
-    {
-        "question":"同理心",
-        "answers":[
-            ["empathy",1],
-            ["compassion",0],
-            ["sympathy",0],
-            ["understanding",0]
-        ]
-    },
-    {
-        "question":"環境",
-        "answers":[
-            ["habitat",0],
-            ["surroundings",0],
-            ["atmosphere",0],
-            ["environment",1]
         ]
     },
     {
@@ -348,6 +330,24 @@ let questions = [
             ["innovation",1],
             ["inventiveness",0],
             ["originality",0]
+        ]
+    },
+    {
+        "question":"disclose",
+        "answers":[
+            ["揭露",1],
+            ["競賽",0],
+            ["無效的",0],
+            ["順從的",0]
+        ]
+    },
+    {
+        "question":"obscure",
+        "answers":[
+            ["毛製品",0],
+            ["二進位的",0],
+            ["難解的",1],
+            ["人口減少",0]
         ]
     },
     {
